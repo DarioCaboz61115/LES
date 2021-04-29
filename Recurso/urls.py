@@ -19,5 +19,6 @@ app_name = "Recurso"
 
 urlpatterns = [
         path("consultar_salas", views.consultar_salas, name="consultar_salas"),
+        path("adicionar_salas", views.adicionar_salas, name="adicionar_salas"),
 ]
 
